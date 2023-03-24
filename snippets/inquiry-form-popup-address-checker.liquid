@@ -1,0 +1,383 @@
+<style>
+  #inquiry-form .form-inquiry {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #inquiry-form.form-inquiry--popup-container .section__header {
+    margin-bottom: 30px;
+  }
+
+  #inquiry-form .form-inquiry--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 25px;
+    margin-top: 26px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  #inquiry-form .form-inquiry--footer span {
+    font-weight: 600;
+  }
+
+  #inquiry-form .form-inquiry--footer .button {
+    color: black;
+    background: white;
+    box-shadow: 0px 0px 0px 1px rgb(var(--primary-button-background));
+    margin-left: 20px;
+    width: 202px;
+  }
+
+  #inquiry-form .form-inquiry--footer .button svg {
+    padding-right: 5px;
+  }
+
+  .form-inquiry--overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.5);
+    z-index: 99;
+    display: none;
+    opacity: 0;
+    transition: 0.2s ease;
+  }
+
+  #inquiry-form.form-inquiry--popup-container.address-checker {
+    position: fixed;
+    top: 50% !important;
+    left: 50%;
+    z-index: 100;
+    background: #ED1C24;
+    border-radius: 8px;
+    transform: scale(0);
+    transition: 0.2s ease;
+    color: #F4E5D4;
+    text-align: center;
+  }
+
+  #inquiry-form.form-inquiry--popup-container.address-checker.active {
+    transform: scale(1) translateX(-50%) translateY(-50%);
+    padding:0;
+  }
+
+  .form-inquiry--overlay.active {
+    display: block;
+    opacity: 100%;
+  }
+
+  #inquiry-form .form-inqury--close-btn svg {
+    width: 20px;
+    height: 20px;
+    color: #E2D2C1;
+  }
+
+  #inquiry-form .form-inqury--back-btn {
+    left: var(--container-gutter);
+  }
+
+  #inquiry-form .form-inqury--back-btn svg {
+    width:24px;
+    height:24px;
+  }
+
+  #inquiry-form.form-inquiry--popup-container.address-checker {
+    top: 40px;
+    border-radius: 0 !important;
+    overflow-y: auto;
+    height: 100vh;
+    width: 100%;
+
+    height: unset !important;
+    width: 40% !important;
+  }
+
+  @media screen and (max-width:740px) {
+    #inquiry-form.form-inquiry--popup-container.address-checker {
+      width:90% !important;
+    }
+  }
+
+  #inquiry-form.form-inquiry--popup-container p {
+    font-size: 14px;
+  }
+
+  #inquiry-form.form-inquiry--popup-container .container {
+    padding: 40px;
+  }
+
+  #inquiry-form.form-inquiry--popup-container.address-checker h3 {
+    font-size:24px;
+    color:#fff5ea;
+    text-transform: uppercase;
+    margin-bottom:0.4em
+  }
+
+  #inquiry-form.form-inquiry--popup-container.address-checker p {
+    font-size:21px;
+    margin-top:0;
+    margin-bottom:2em;
+  }
+
+  #inquiry-form .address-checker-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+
+  #inquiry-form .address-checker-form .input__field {
+    background: white;
+    flex: 2;
+    color:#313131
+  }
+
+  #inquiry-form .address-checker-form .input__field::placeholder {
+    color:#B09B84;
+  }
+
+  #inquiry-form .address-checker-form .button {
+    background: #fff5ea;
+    color: #ED1C24;
+    flex: 1;
+    line-height: normal;
+    padding: 1em 0;
+  }
+
+  #inquiry-form .address-checker--address-found,
+  #inquiry-form .address-checker--address-not-found {
+    display:none;
+  }
+
+  #inquiry-form .address-checker--address-found form {
+    max-width:10%;
+  }
+
+  #inquiry-form .checkout-options {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 2em;
+  }
+
+  #inquiry-form .checkout-option--button:not(:last-child) {
+    border-right:1px solid #F8D4D6;
+  }
+
+  #inquiry-form .checkout-option--button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 3em;
+    width:250px;
+    grid-gap:20px;
+  }
+
+  #inquiry-form .checkout-option--button:hover {
+    transition:0.2s ease;
+  }
+
+  #inquiry-form .checkout-option--button.active {
+    background: rgba(255,255,255,0.4);
+  }
+
+  #inquiry-form .checkout-option--button p {
+    font-size:18px;
+    line-height: normal;
+    margin-top:1em;
+  }
+
+  #inquiry-form .proceed-link {
+    width:200px;
+  }
+
+  @media screen and (max-width: 999px) {
+    #inquiry-form.form-inquiry--popup-container .container {
+      padding: 20px;
+      padding-top: 60px;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    #inquiry-form .address-checker-form {
+      flex-direction: column;
+      max-width: unset;
+      grid-gap:10px;
+    }
+
+    #inquiry-form .address-checker-form .button {
+      width:100%;
+      min-width: 0 !important;
+    }
+
+    #inquiry-form .form-inquiry--popup-container.address-checker p {
+      font-size:17px;
+    }
+
+    #inquiry-form .checkout-options {
+      width:unset;
+    }
+
+    #inquiry-form .checkout-option--button {
+      width: 50%
+    }
+  }
+</style>
+
+<div class="form-inquiry--overlay inquiry-form"></div>
+
+<div class="form-inquiry--popup-container address-checker" id="inquiry-form">
+  <div class="checkered-border"></div>
+
+    <div class="container">
+
+    <button
+      type="button"
+      class="drawer__close-button tap-area form-inqury--close-btn"
+      data-action="close"
+      title="{{ 'general.accessibility.close' | t | escape }}"
+    >
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+    <div class="address-checker--landing-page">
+      <h3>Enter your postcode</h3>
+      <p>We're here to check if we deliver in your area. <br> Enter your postcode to find out.</p>
+
+      <form class="address-checker-form" onsubmit="validateZipCode(); return false;">
+        <input id="address-checker-input" type="text" class="input__field" placeholder="Enter your postcode">
+        <button type="button" is="loader-button" class="button" onclick="validateZipCode(); return false;">Confirm Postcode</button>
+      </form>
+
+    </div>
+
+    <div class="address-checker--address-found">
+
+    <button
+      type="button"
+      class="drawer__close-button tap-area form-inqury--back-btn"
+      data-action="close"
+      title="{{ 'general.accessibility.close' | t | escape }}"
+    >
+      {%- render 'icon' with 'nav-arrow-left' -%}
+    </button>
+
+      <h3>Yes, we have 2x delivery options!</h3>
+      <p style="margin-bottom:1em;">Select your preferred option at the checkout</p>
+
+      <div class="checkout-options">
+        <div class="checkout-option--button">
+            {%- render 'icon' with 'address-checker--deliver' -%}
+            <p>Deliver to your address</p>
+        </div>
+        <div class="checkout-option--button">
+            {%- render 'icon' with 'address-checker--pickup' -%}
+            <p>Pick up from our Marrickville store</p>
+        </div>
+      </div>
+
+      <form class="address-checker-form">
+          <a class='proceed-link' href="/collections/combo-deals">
+            <button type="button" class="button">
+              Proceed
+            </button>
+          </a>
+      </form>
+      
+    </div>
+    <div class="address-checker--address-not-found">
+
+    <button
+      type="button"
+      class="drawer__close-button tap-area form-inqury--back-btn"
+      data-action="close"
+      title="{{ 'general.accessibility.close' | t | escape }}"
+    >
+      {%- render 'icon' with 'nav-arrow-left' -%}
+    </button>
+
+      <h3>Sorry, we don't deliver in your area.</h3>
+      <p>We're coming soon to your area, and you'll be the first to know when we're there!</p>
+
+      {%- comment -%} <form class="address-checker-form">
+        <input type="text" class="input__field" placeholder="Submit">
+        <button type="button" class="button">Email Address</button>
+      </form> {%- endcomment -%}
+
+      <div class="klaviyo-form-Y53Dn5"></div>
+
+    </div>
+
+    </div>
+
+  <div class="checkered-border"></div>
+</div>
+
+<script>
+    $(".confirm-address").on("click", function () {
+      $('.address-checker--landing-page').fadeOut(function(){
+
+        if ($('#address-checker-input').val() == '') {
+          $('.address-checker--address-not-found').fadeIn();
+        } else {
+          $('.address-checker--address-found').fadeIn();
+        }
+
+      })
+    });
+
+    $(".form-inqury--back-btn").on("click", function() {
+      $('.address-checker--address-found').hide();
+      $('.address-checker--address-not-found').hide();
+      $('.address-checker--landing-page').fadeIn();
+      $('.address-checker-form button').removeAttr('aria-busy')
+    })
+
+  function validateZipCode(e) {    
+
+    const zipcode = document.getElementById('address-checker-input').value;
+    
+    // Checks to ensure Store Pickup + Delivery is installed correctly.
+    if (typeof window.Zapiet === 'undefined' || typeof window.ZapietCachedSettings === 'undefined' || 
+        typeof window.Zapiet.DeliveryValidator === 'undefined' || window.ZapietCachedSettings.cached_config === 'undefined' || 
+        window.ZapietCachedSettings.cached_config.delivery_validator === 'undefined') {
+      console.warn('Zapiet - Custom delivery validator error. Please ensure you have Store Pickup + Delivery correctly installed. Contact support@zapiet.com for assistance.'); 
+      return false;
+    }
+          
+    Zapiet.DeliveryValidator.checkEligiblity(zipcode, function(response) {
+        // Eligible callback
+        //Zapiet.DeliveryValidator.eligibleForDelivery(response);
+      $('.address-checker--landing-page').fadeOut(function(){
+          $('.address-checker--address-found').fadeIn();
+      })
+
+    }, function() {
+        // Not eligible callback
+        //Zapiet.DeliveryValidator.notEligibleForDelivery();
+      $('.address-checker--landing-page').fadeOut(function(){
+          $('.address-checker--address-not-found').fadeIn();
+      })
+    }, function() {
+        // Error callback
+        Zapiet.DeliveryValidator.error();
+    });
+          
+    return false;
+  }
+
+    //    background: rgba(255,255,255,0.4);
+    //    cursor:pointer;
+</script>
+    

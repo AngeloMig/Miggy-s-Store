@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1b310715-3f54-40bd-8353-b6272a1dc9fc": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_Pre_heat.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Preheat the oven or BBQ to 230c",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_Add_Toppings.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Add toppings to your pizza",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_Cook.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Cook for 6-8 minutes",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_Enjoy.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Eat. Enjoy. Repeat",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-0",
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-1",
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-2",
+        "template--15774481744047__1b310715-3f54-40bd-8353-b6272a1dc9fc-16660968254ea43f23-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "How does it work?",
+        "content": "<p>Real pizza, hot and fresh from your own oven!<\/p>",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "multicolumn_desc": "var(--base-font-size)",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "description_color": "rgba(237, 28, 36,1)"
+      }
+    },
+    "136602b7-2539-4372-892f-be0c0263256e": {
+      "type": "video",
+      "settings": {
+        "show_checkered_border": false,
+        "subheading": "",
+        "title": "",
+        "button_text": "",
+        "button_url": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=PMx96MRSiG4",
+        "image": "shopify:\/\/shop_images\/Video_Cover.png",
+        "background_type": "boxed",
+        "video_size": "large",
+        "autoplay": false,
+        "background": "#fff5ea",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#ed1c24"
+      }
+    },
+    "09ff8f8b-4745-40ec-8d77-00c512586c1c": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--15774481744047__09ff8f8b-4745-40ec-8d77-00c512586c1c-1666096825712c6877-0": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "What makes Hank’s so good?",
+            "content": "<p>• 48hr fermented dough<br\/>• Single origin, locally sourced sustainable flour<br\/>• Hand made, in Marrickville<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15774481744047__09ff8f8b-4745-40ec-8d77-00c512586c1c-1666096825712c6877-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "090363c9-531a-4c7b-9591-c0c4ee2495c1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "What makes Hank’s so good?",
+        "header_tag": "h2",
+        "header_transform": "uppercase",
+        "content": "<p>Sick and tired of sweaty, soggy traditional pizza delivery services? Now you can cook real pizza at home in just minutes! <\/p><p>Choose from one of our most popular combos, or build your own perfect box by mixing and matching as many bases and toppings as you like. Oh… we do desserts <em>and<\/em> drinks too! <\/p><p>Our pizza bases and toppings are delivered cold packed so that all you have to do is finish building your pizza and cook on high heat for 6-8 minutes. Cut. Eat. Enjoy. Repeat.<\/p><p>Hank’s bases freeze perfectly for 12 weeks, so you can always keep that emergency stash on hand.  <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1b310715-3f54-40bd-8353-b6272a1dc9fc",
+    "136602b7-2539-4372-892f-be0c0263256e",
+    "09ff8f8b-4745-40ec-8d77-00c512586c1c",
+    "090363c9-531a-4c7b-9591-c0c4ee2495c1"
+  ]
+}

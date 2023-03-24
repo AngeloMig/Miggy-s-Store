@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "2898d61f-6596-4a8d-a490-8b9998f09cf3": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "template--15847792607407__2898d61f-6596-4a8d-a490-8b9998f09cf3-16752112800062071a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/red.png",
+            "split_image": "shopify:\/\/shop_images\/Banner_Image_73e34593-a4ca-4f31-8c77-83f0033e464e.png",
+            "mobile_image": "shopify:\/\/shop_images\/alanadimou-hankshotbox-feb2022-04.jpg",
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "Hank's is better with mates",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15847792607407__2898d61f-6596-4a8d-a490-8b9998f09cf3-16752112800062071a-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "7cfae3f4-6a58-4e6e-8f4d-94ddc08a0829": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "{%render 'referral-form-iframe'%}",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "169dc441-8126-4559-8623-d36926e2b2fe": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact Us",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7d75539c-a2ba-48c0-9e38-760e44188b1c": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_3_ce7cc7b9-cf53-47f0-a716-fe3b5cd1b868.png",
+            "image_width": 37,
+            "image_width_mobile": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Register",
+            "content": "<p>Sign up above and get your personalised invite link over email<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.png",
+            "image_width": 37,
+            "image_width_mobile": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Share",
+            "content": "<p>Send the link to your mate for them to get $20 off their first order<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group.png",
+            "image_width": 37,
+            "image_width_mobile": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Redeem",
+            "content": "<p>Once they redeem, you will get a $20 voucher as well!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_width_mobile": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-0",
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-1",
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-2",
+        "template--15847792607407__7d75539c-a2ba-48c0-9e38-760e44188b1c-16752116566ee58a4d-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "multicolumn_desc": "var(--heading-h6-font-size)",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#ed1c24",
+        "description_color": "#313131"
+      }
+    },
+    "a20c977b-39bf-4296-9239-c4f2b9a03379": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "See - pizza is better together!",
+        "header_tag": "h3",
+        "header_transform": "initial",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2898d61f-6596-4a8d-a490-8b9998f09cf3",
+    "7cfae3f4-6a58-4e6e-8f4d-94ddc08a0829",
+    "169dc441-8126-4559-8623-d36926e2b2fe",
+    "7d75539c-a2ba-48c0-9e38-760e44188b1c",
+    "a20c977b-39bf-4296-9239-c4f2b9a03379"
+  ]
+}

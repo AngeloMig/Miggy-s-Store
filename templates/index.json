@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "0db21849-b5ac-4aaf-b5d5-f2ecc15820fe": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "template--15763343900847__0db21849-b5ac-4aaf-b5d5-f2ecc15820fe-16649565131357c446-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/red.png",
+            "split_image": "shopify:\/\/shop_images\/Banner_Image.png",
+            "mobile_image": "shopify:\/\/shop_images\/alanadimou-hankshotbox-feb2022-04.jpg",
+            "text_position": "middle_left",
+            "subheading": "COOK PROPER PIZZA. AT HOME. IN MINUTES",
+            "title": "Real Pizza, Real Easy",
+            "button_1_text": "Get Started",
+            "button_1_link": "shopify:\/\/collections\/combo-deals",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ed1c24",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15763343900847__0db21849-b5ac-4aaf-b5d5-f2ecc15820fe-16649565131357c446-0"
+      ],
+      "settings": {
+        "section_height": "fit",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1664779091676089a5": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div style=\"padding:20px 0; display:flex; justify-content:center;align-items:center\" class=\"form-popup\">\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/9496\/1327\/files\/icon-motor_1.png?v=1665109065\"><\/div>\n<h2 style=\"font-weight:700; margin:0 0.7em\">ENTER POSTCODE TO FIND DELIVERY OPTIONS<\/h2>\n<\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "8a0fd66b-cdc2-43cf-bd15-97abbb1a4edb": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.form-popup--address-checker {\npadding:20px 0;display:flex; justify-content:center;align-items:center;cursor:pointer\n}\n\n.form-popup--address-checker h2 {\nfont-weight:700; margin:0 0.7em\n}\n\n@media screen and (max-width:740px){\n.form-popup--address-checker h2 { font-size:16px; padding-left:1em;line-height:1.4 }\n.form-popup--address-checker img { width: 80px;   image-rendering: auto;\n  image-rendering: crisp-edges;}\n}\n<\/style>\n\n\n<div class='form-popup--address-checker'>\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/9496\/1327\/files\/icon-motor_1.png?v=1665109065\"><\/div>\n<h2>ENTER POSTCODE TO FIND DELIVERY OPTIONS<\/h2>\n<\/div>\n{%- render 'inquiry-form-popup-address-checker' -%}",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647806781449e1d2": {
+      "type": "featured-collections",
+      "blocks": {
+        "166478067891a43abe-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "combo-deals",
+            "label": "",
+            "button_text": "Full Menu",
+            "button_url": "shopify:\/\/collections\/combo-deals"
+          }
+        }
+      },
+      "block_order": [
+        "166478067891a43abe-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Best Sellers",
+        "content": "<p>Save time and choose from our favourites!<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#fff5ea",
+        "text_color": "#ed1c24",
+        "button_background": "#ed1c24",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "640113bd-1bf9-48ca-8be2-e17851d35578": {
+      "type": "video",
+      "settings": {
+        "show_checkered_border": true,
+        "subheading": "",
+        "title": "How does it work?",
+        "button_text": "Learn more",
+        "button_url": "shopify:\/\/pages\/how-it-works",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=PMx96MRSiG4",
+        "image": "shopify:\/\/shop_images\/Video_Cover.png",
+        "background_type": "boxed",
+        "video_size": "medium",
+        "autoplay": false,
+        "background": "#ed1c24",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#ed1c24"
+      }
+    },
+    "51755c2b-db52-4966-804b-5f7b2df18f1b": {
+      "type": "custom-html",
+      "custom_css": [
+        ".container {padding: 0; margin: 0; max-width:100%;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"klaviyo-form-YiFdBQ\"><\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#f4e5d4",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "189f258a-396f-4120-8902-da1338470e99": {
+      "type": "custom-promotion-blocks",
+      "blocks": {
+        "template--15763343900847__189f258a-396f-4120-8902-da1338470e99-16651034024ebdb25a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mustard-1.png",
+            "highlight": false,
+            "subheading": "",
+            "title": "Summer threads",
+            "link_text": "",
+            "link_url": "https:\/\/hankshotbox.com.au\/products\/hanks-tee-mustard",
+            "link_style": "blocks",
+            "text_position": "bottom_center",
+            "background": "#ed1c24",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--15763343900847__189f258a-396f-4120-8902-da1338470e99-16651034024ebdb25a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bizzarro.webp",
+            "highlight": false,
+            "subheading": "",
+            "title": "Featured Drink",
+            "link_text": "",
+            "link_url": "https:\/\/hankshotbox.com.au\/products\/bizzarro-spritz",
+            "link_style": "blocks",
+            "text_position": "bottom_center",
+            "background": "#ed1c24",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--15763343900847__189f258a-396f-4120-8902-da1338470e99-16651034024ebdb25a-0",
+        "template--15763343900847__189f258a-396f-4120-8902-da1338470e99-16651034024ebdb25a-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "large",
+        "stack_on_mobile": true,
+        "background": "#fff5ea",
+        "text_color": "rgba(0,0,0,0)",
+        "block_background": "#ed1c24"
+      }
+    },
+    "12b0ac7d-5cb9-4052-8bc7-d366be5d50f0": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "template--15763343900847__12b0ac7d-5cb9-4052-8bc7-d366be5d50f0-166509749387d19a69-0": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"Hard to believe just how good this pizza really is. This pizza was one of the best I have had.\"",
+            "author": "GS Sydney"
+          }
+        },
+        "d7614584-1155-4972-99ed-459a08d2b96f": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"Delicious pizza and fun for the family! Perfect delivery and great tips\/instructions.\"",
+            "author": "Tamsin Stuart"
+          }
+        },
+        "e1d18983-0737-438c-9b6f-b2c819910e31": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"Pizza perfect! Would definitely order more of Hank's pizzas.\"",
+            "author": "Ronel Paul"
+          }
+        },
+        "72304511-d8a9-400d-be54-8070979fc693": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"Delivery was quick and easy to track Delivery was quick and easy to track. Pizzas were cold packed so even if you're not at home, they keep cold.\"",
+            "author": "Geoff Watts"
+          }
+        },
+        "40023211-a8db-4f0c-86ea-37d916802ece": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"The kids, who have had a lot of pizza in their short lives, declared it the best pizza EVER. Best tip was to ensure it wasn’t cooked on baking paper.\"",
+            "author": "Jennifer Reid"
+          }
+        }
+      },
+      "block_order": [
+        "template--15763343900847__12b0ac7d-5cb9-4052-8bc7-d366be5d50f0-166509749387d19a69-0",
+        "d7614584-1155-4972-99ed-459a08d2b96f",
+        "e1d18983-0737-438c-9b6f-b2c819910e31",
+        "72304511-d8a9-400d-be54-8070979fc693",
+        "40023211-a8db-4f0c-86ea-37d916802ece"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "#fff5ea",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16698901748de25a38": {
+      "type": "apps",
+      "blocks": {
+        "df724838-0013-49ae-845e-5683fb0a9397": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "df724838-0013-49ae-845e-5683fb0a9397"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "88474add-e850-468e-969f-cada43acfc61": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"trustpilot-widget\" data-locale=\"en-US\" data-template-id=\"53aa8912dec7e10d38f59f36\" data-businessunit-id=\"603b59153217ab0001f92081\" data-style-height=\"140px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"1,2,3,4,5\" data-review-languages=\"en\" data-text-color=\"#484848\">\n  <a href=\"https:\/\/www.trustpilot.com\/review\/hankshotbox.com.au\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ef0c9c3b-71a6-4779-97ee-bbe17b336629": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.custom-html-contents {\ndisplay:flex; justify-content:center;\n}\n<\/style>\n\n<div class=\"custom-html-contents\"><img class=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/9496\/1327\/files\/Capture.png?v=1665099633\"><\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#fff5ea",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9248bbe0-4055-49b7-a47d-3fe891d7c18b": {
+      "type": "custom-newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "subheading": "Stay in the loop",
+        "content": "<p>There's no spam served at hank's<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#ed1c24",
+        "background": "#f4e5d4",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "0db21849-b5ac-4aaf-b5d5-f2ecc15820fe",
+    "1664779091676089a5",
+    "8a0fd66b-cdc2-43cf-bd15-97abbb1a4edb",
+    "16647806781449e1d2",
+    "640113bd-1bf9-48ca-8be2-e17851d35578",
+    "51755c2b-db52-4966-804b-5f7b2df18f1b",
+    "189f258a-396f-4120-8902-da1338470e99",
+    "12b0ac7d-5cb9-4052-8bc7-d366be5d50f0",
+    "16698901748de25a38",
+    "88474add-e850-468e-969f-cada43acfc61",
+    "ef0c9c3b-71a6-4779-97ee-bbe17b336629",
+    "9248bbe0-4055-49b7-a47d-3fe891d7c18b"
+  ]
+}

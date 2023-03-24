@@ -1,0 +1,321 @@
+@media (max-width: 768px) {
+  #inquiry-form.form-inquiry--popup-container.address-checker {
+    width: 90% !important;
+  }
+
+  #inquiry-form.form-inquiry--popup-container.address-checker {
+    /* top: 20% !important; */
+  }
+
+  .button:not(.button--text),
+  .shopify-challenge__button,
+  #shopify-product-reviews .spr-summary-actions-newreview,
+  #shopify-product-reviews .spr-button {
+    min-width: 324px !important;
+  }
+
+  h2.heading {
+    font-size: 28px !important;
+  }
+
+  .custom--newsletter {
+    padding: var(--vertical-breather) 25px !important;
+  }
+
+  .product-item-meta__title {
+    font-size: 18px;
+  }
+
+  /* .footer__item--links {
+    max-width: 100% !important;
+    width: 100%;
+  } */
+
+  .footer__item-list :nth-child(4) {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+
+  .footer__item-list :nth-child(4) .linklist {
+    columns: 2;
+  }
+  .footer__item:last-child {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+  }
+
+  .background--block p.heading {
+    font-size: 26px !important;
+  }
+
+  .background--block {
+    padding: 15px 13px !important;
+  }
+
+  .background--block p {
+    font-size: 18px !important;
+  }
+
+  .mobile-custom-slideshow .hero--heading {
+    max-width: 350px !important;
+  }
+
+  .mobile-custom-slideshow .button.hero--button {
+    min-width: 161px !important;
+    font-size: 19px !important;
+    padding: 7px 0;
+    transform: translateY(-8px);
+    line-height: 1.5;
+  }
+
+  .mobile-custom-slideshow .hero--subheading {
+    font-size: 18px;
+  }
+
+  .mobile-custom-slideshow .button-press {
+    transform: translateY(0px);
+  }
+
+  .footer__aside {
+    padding-top: 14px !important;
+  }
+
+  .footer__copyright,
+  .footer__payment-methods {
+    margin-top: 0 !important;
+  }
+
+  .footer__inner .footer__item-list {
+    grid-gap: 20px;
+    gap: 20px;
+  }
+}
+
+.category-filter .category-filter--button {
+  order: var(--order);
+}
+
+@media (max-width: 600px) {
+  .slideshow,
+  .slideshow__slide-list,
+  .slideshow__slide,
+  .slideshow__slide-inner {
+    min-height: 0 !important;
+  }
+}
+
+.featured-collections .product-list__inner {
+  display: grid !important;
+}
+
+.featured-collections .prev-next-button {
+  background: white !important;
+}
+
+@media (max-width: 999px) {
+  .mobile-custom-slideshow .hero--heading {
+    max-width: 400px;
+    font-size: 50px;
+  }
+
+  .featured-collections .prev-next-button {
+    border: 1px solid
+      rgba(var(--prev-next-button-color, var(--root-text-color)), 0.15);
+  }
+
+  /* .featured-collections .product-list__inner {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    overflow: auto hidden;
+    scroll-snap-type: x mandatory;
+  }
+
+  .product-list__inner--scroller .product-item {
+    scroll-snap-align: end !important;
+  }
+
+  .product-list__prev-next {
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: calc(
+      var(--item-width) / var(--smallest-image-aspect-ratio) / 2 - 28px
+    );
+  } */
+
+  .form-popup .product--thumbnails- {
+    overflow: hidden scroll;
+    height: calc(100% - 174px);
+  }
+
+  .form-popup .drawer__close-button {
+    right: 20px;
+    top: 20px;
+  }
+
+  .form-popup h1 {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+
+  .form-popup .price {
+    font-size: 21px !important;
+  }
+
+  .form-popup product-meta {
+    margin-top: 56px;
+    margin-bottom: 18px;
+  }
+
+  .form-popup button.button {
+    min-width: 158px !important;
+  }
+  .form-popup .shopify-product-form > span {
+    display: none;
+  }
+
+  .form-popup .product-form__quantity {
+    justify-content: space-between !important;
+  }
+
+  .form-popup .shopify-product-form div:last-child {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .form-popup .shopify-product-form div:last-child select {
+    width: 100%;
+  }
+
+  .form-popup .product-info--icons {
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .mobile-custom-slideshow img {
+    height: 100%;
+  }
+
+  .slideshow__image-wrapper.hidden-lap-and-up > img {
+    z-index: 1;
+  }
+
+  .slideshow__text-wrapper.slideshow__text-wrapper--.vertical-breather {
+    padding: 0;
+    position: relative;
+  }
+
+  .slideshow__text-wrapper .content-box {
+    padding: 34px 0;
+  }
+}
+
+.mobile-filter--button {
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  border: 3px solid #ed1c24;
+  border-radius: 15px;
+  padding: 15px 20px;
+  width: 325px;
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 6.5px);
+  right: 17px;
+  width: 0;
+  height: 0;
+  border: 12.6px solid transparent;
+  border-color: #ed1c24 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #ed1c24 transparent;
+  top: calc(50% - 21px);
+}
+
+.select-selected.select-arrow-active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-width: 0;
+}
+
+/* style the items (options), including the selected item: */
+
+.select-items div {
+  padding: 15px 20px;
+  width: 325px;
+  min-height: 76px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 10px;
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.select-selected::before,
+.select-items div::before {
+  content: var(--icon);
+  height: 40px;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #fff5ea;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border: 3px solid #ed1c24;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.custom-select {
+  margin: 40px auto;
+}
+
+@media (min-width: 1000px) {
+  .custom-select {
+    display: none !important;
+  }
+}

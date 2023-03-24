@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "7380f8d0-eb22-4839-bc2d-3e6e966ce846": {
+          "type": "question",
+          "settings": {
+            "title": "How does this work?",
+            "answer": "<p>Hank’s pizza bases are delivered cold packed and vacuum sealed. Additional toppings are packed separately. Simply finish building your pizza and bake at 230c for 6-8 minutes.<br\/><br\/>Proper pizza, fresh from your home oven!<\/p>"
+          }
+        },
+        "c155d513-5875-42bb-92ec-1b982b654a89": {
+          "type": "question",
+          "settings": {
+            "title": "Where and when do you deliver?",
+            "answer": "<p>GREATER SYDNEY: Wednesday, Thursday, Friday<\/p><p>CANBERRA: Friday<\/p><p>WOLLONGONG, SOUTHERN HIGHLANDS, GOULBURN: Friday<\/p><p>CENTRAL COAST: Thursday<\/p><p>BLUE MOUNTAINS \/ LITHGOW: Wednesday<\/p>"
+          }
+        },
+        "9ea5149c-2aec-4961-9d96-56559aa87cb7": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a minimum order for delivery?",
+            "answer": "<p>You'll need to spend $45 to have your Hank's delivered.<\/p>"
+          }
+        },
+        "ee358066-29ab-4982-82cc-050916149814": {
+          "type": "question",
+          "settings": {
+            "title": "What is the use by date of Hank’s bases?",
+            "answer": "<p>Hank's pizza bases can be stored frozen for at least 8 weeks. Additional toppings which have been packed separately should be stored refrigerated.<\/p>"
+          }
+        },
+        "8c674235-2392-46c8-870b-19d426cbc9fa": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have gluten free pizza?",
+            "answer": "<p>Not yet, but it is in the pipeline!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7380f8d0-eb22-4839-bc2d-3e6e966ce846",
+        "c155d513-5875-42bb-92ec-1b982b654a89",
+        "9ea5149c-2aec-4961-9d96-56559aa87cb7",
+        "ee358066-29ab-4982-82cc-050916149814",
+        "8c674235-2392-46c8-870b-19d426cbc9fa"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}
